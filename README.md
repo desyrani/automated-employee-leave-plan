@@ -1,52 +1,45 @@
 **Overview**
 
-This repository contains the codebase and tools for managing employee leave plans efficiently. The system automates leave tracking, planning, and reporting while integrating with tools like Google Sheets and Google Apps Script to ensure seamless operation. The repository is divided into three key components: Code, Table, and UI.
+The Employee Leave Plan repository provides a streamlined solution for managing and tracking employee leave data using Google Apps Script and Google Sheets. It is designed to integrate leave planning with real-time updates and custom functionalities, making it easier for organizations to manage leave requests, quotas, and balances.
 
 **Key Features**
 
-- Leave Management Automation: Tracks leave quotas, usage, and balances automatically.
-- Dynamic Table Integration: Synchronizes leave data across multiple sheets for easy access.
-- Interactive UI: Provides user-friendly menus and tools to simplify leave management.
+- Integration with Google Sheets: Automates leave management workflows directly within Google Sheets.
+- Custom Leave Tracking: Tracks leave quotas, used leave, and remaining leave dynamically.
+- Interactive User Interface: Provides a user-friendly interface for leave management and planning.
+- Real-Time Synchronization: Updates and calculates leave balances in real time.
 
 **Repository Structure**
 
 **1. Code**
 
-This folder contains the main logic and scripts for automating the leave planning process.
+This file contains the core logic for the leave management system, including:
+
+- Scripts for calculating leave quotas and balances.
+- Functions for syncing data between Google Sheets and the Apps Script backend.
+- Automated processes to handle requests, approvals, and updates.
 
 **Key Features:**
 
-- Calculate leave entitlements, used leave, and remaining leave dynamically.
-- Synchronize leave data with external files or sheets.
-- Exclude public holidays and special leave types (e.g., unpaid leave, collective leave).
+- Leave balance calculations based on quotas and usage.
+- Integration with leave policies (e.g., public holidays, collective leave).
 
-**Functions Included:**
-
-- Leave quota updates.
-- Integration with attendance tracking systems.
-- Automation of leave balance calculations.
-  
 **2. Table**
 
-This folder contains preconfigured Google Sheets templates or examples for managing leave data.
+This file includes the Google Sheets templates used for managing leave data. The templates contain structured columns such as:
 
-**Key Columns:**
+- Employee Information: Name, Position, Join Date, Email.
+- Leave Quotas: Annual leave, special leave, unpaid leave.
+- Leave Balances: Leave entitlement, used leave, and remaining leave.
+- Logs: Tracks leave applications and approvals.
 
-- Employee Details: Name, Position, Join Date.
-- Leave Records: Leave Quota, Used Leave, Remaining Leave.
-- Leave Types: Annual Leave (Cuti Tahunan), Replacement Leave (Cuti Pengganti), Unpaid Leave (Cuti Tidak Berbayar).
-
-**Use Case:**
-
-- Import and customize these templates to match your organization’s requirements.
-- Track leave balances dynamically using the linked scripts.
-  
 **3. UI**
 
-This folder includes scripts for the user interface, providing an interactive way to manage leave plans.
+This file holds scripts for the user interface, designed to improve the experience of interacting with the leave plan system.
 
 **Features:**
 
-- Custom menus in Google Sheets for managing leave plans.
-- Real-time search functionality to find specific employee leave details.
-- Tools for generating leave reports and summaries.
+- Custom menus in Google Sheets for leave management actions.
+- Leave request submission and approval workflows.
+- Search functionality to find leave details for specific employees.
+- Real-time status updates for leave applications.
