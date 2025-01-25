@@ -1,6 +1,6 @@
 **Overview**
 
-This repository contains the codebase and tools for managing employee leave plans efficiently. The system automates leave tracking, planning, and reporting while integrating with tools like Google Sheets to ensure seamless operation. The repository is divided into three key components: Code, Table, and UI.
+This repository contains the codebase and tools for managing employee leave plans efficiently. The system automates leave tracking, planning, and reporting while integrating with tools like Google Sheets and Google Apps Script to ensure seamless operation. The repository is divided into three key components: Code, Table, and UI.
 
 **Key Features**
 
